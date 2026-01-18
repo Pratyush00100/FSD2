@@ -1,16 +1,38 @@
-# React + Vite
+# React Single Page Application (SPA) – Component-Based Architecture
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Student Details
+- **Name:** Pratyush Kumar Singh  
+- **UID:** 23BDA70101  
+- **Subject:** Full Stack Development – II (FSD 2)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Aim
+The aim of this experiment is to understand and implement **component-based architecture in React** by developing a **Single Page Application (SPA)**, where different parts of the UI are handled using separate and reusable React components.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What We Did
+- Developed a React-based Single Page Application.
+- Created multiple functional components to represent different sections of the application.
+- Used component composition to integrate various components within the SPA.
+- Implemented dynamic rendering of components without reloading the page.
+- Maintained a modular project structure for better readability and maintainability.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- Node.js  
+- npm  
+
+---
+
+## Learning Outcomes
+- Understood the concept of **Single Page Applications (SPA)**.
+- Learned how to create and reuse **React components**.
+- Gained practical knowledge of **component-based UI development**.
+- Improved understanding of frontend project structure and best practices.
