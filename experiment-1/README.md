@@ -6,8 +6,7 @@ The aim of this experiment is to create a **basic Single Page Application (SPA)*
 ##  Experiment Details
 - **Experiment No.:** 1  
 - **Title:** Create a Basic SPA Using Modern Frontend Framework  
-- **Framework:** React (Vite)  
-- **Routing:** React Router DOM  
+- **Framework:** React (Vite)
 
 ##  Tech Stack
 - React  
@@ -32,15 +31,7 @@ The aim of this experiment is to create a **basic Single Page Application (SPA)*
 `npm run dev`
 
 5. Open in browser  
-`http://localhost:5173`
-
-##  What We Did in This Experiment
-- Created a React SPA using Vite  
-- Implemented client-side routing using React Router  
-- Built reusable components (Header, Footer)  
-- Used React Hooks for state management  
-- Created a contact form with controlled inputs  
-- Pushed code to GitHub and deployed the application  
+`http://localhost:5173` 
 
 ##  What We Learned
 - Working of Single Page Applications  
@@ -56,10 +47,6 @@ The aim of this experiment is to create a **basic Single Page Application (SPA)*
 - Hands-on experience with routing and state management  
 - Knowledge of deploying frontend applications  
 
-##  References
-- React Docs: https://react.dev  
-- Vite Docs: https://vitejs.dev  
-- React Router: https://reactrouter.com  
 
-### Note
-This project is created for academic and learning purposes.
+## Note
+Created by PRATYUSH KUMAR SINGH
