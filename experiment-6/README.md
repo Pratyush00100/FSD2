@@ -1,16 +1,11 @@
-# React + Vite
+# Experiment 6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Aim:**
+To implement robust form handling and schema-based validation in a React application using controlled components and specialized libraries.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Learning Outcomes:**
+* Create **controlled components** where React state serves as the single source of truth for all form inputs.
+* Utilize the **React Hook Form** library to efficiently manage complex form states with minimal code.
+* Integrate **Yup schema validation** to enforce strict data constraints and handle input errors.
+* Implement **file upload handling** with real-time image previews using the `FileReader` API.
+* Develop **accessible and professional UIs** that provide clear, immediate feedback and specific error messages to users.
