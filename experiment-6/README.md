@@ -1,11 +1,11 @@
 # Experiment 6
 
 **Aim:**
-To implement robust form handling and schema-based validation in a React application using controlled components and specialized libraries.
+To implement form handling and schema-based validation in a React application.
 
 **Learning Outcomes:**
-* Create **controlled components** where React state serves as the single source of truth for all form inputs.
-* Utilize the **React Hook Form** library to efficiently manage complex form states with minimal code.
-* Integrate **Yup schema validation** to enforce strict data constraints and handle input errors.
-* Implement **file upload handling** with real-time image previews using the `FileReader` API.
-* Develop **accessible and professional UIs** that provide clear, immediate feedback and specific error messages to users.
+* Created **controlled components** where React state manages all form input values.
+* Integrated the **React Hook Form** library to handle form states efficiently.
+* Implemented **Yup schema validation** to enforce data rules and capture user errors.
+* Designed a **Professional Light-Mode UI** that provides clear and immediate validation feedback.
+* Developed a structured approach to handling form submissions and displaying error messages.
