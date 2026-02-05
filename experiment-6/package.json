@@ -1,5 +1,5 @@
 {
-  "name": "experiment-1",
+  "name": "experiment-6",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.12.0"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -24,10 +23,5 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
-  },
-  "description": "This project is developed as part of **Experiment 1** for the course **Full Stack – II (23CSH-382)**.  \r The aim of this experiment is to create a **basic Single Page Application (SPA)** using a modern frontend framework and understand core SPA concepts.",
-  "main": "eslint.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
