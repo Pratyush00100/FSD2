@@ -1,0 +1,20 @@
+# Virtual Environments (CRITICAL)
+venv-customer/
+venv-order/
+venv/
+env/
+
+# Python Cache files (These are auto-generated and don't need to be shared)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables (If you use them later for API keys)
+.env
+
+# OS generated files (Just in case you are on a Mac)
+.DS_Store
+
+# IDE specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
