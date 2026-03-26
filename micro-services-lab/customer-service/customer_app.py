@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-ORDER_SERVICE_URL = "https://two3bda70124-ex-11-order-service.onrender.com"
+ORDER_SERVICE_URL = "https://order-service-v5dl.onrender.com"
 
 customers = {
     101: {"id": 101, "name": "Customer-1", "email": "customer-1@example.com"},
