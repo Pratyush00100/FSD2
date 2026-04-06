@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 const Home = lazy(() => import("./Home"));
-const FormSection = lazy(() => import("./form"));
+const FormSection = lazy(() => import("./Form"));
 const Contact = lazy(() => import("./Contact"));
 
 export default function SinglePageApp() {
