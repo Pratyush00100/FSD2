@@ -1,5 +1,4 @@
-# Testing Suite
-
+# Experiment 16
 This folder contains the testing setup for the FSD2 project, demonstrating full-stack testing with CI/CD integration.
 
 ## Structure
