@@ -12,12 +12,11 @@ jobs:
 
     defaults:
       run:
-        working-directory: testing/experiment-8 # Update this if your backend is elsewhere
+        working-directory: testing/experiment-8
     
-    # I kept your backend steps intact, but verify the path above
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -25,30 +24,25 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
+        # No need for a venv in GitHub Actions! Just install directly.
+        run: pip install -r requirements.txt
 
       - name: Run backend tests
-        run: |
-          source venv/bin/activate
-          pytest
+        run: pytest
 
   frontend-test:
     runs-on: ubuntu-latest
 
     defaults:
       run:
-        # Changed this to match your VS Code terminal path
         working-directory: testing/experiment-6
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
@@ -56,5 +50,4 @@ jobs:
         run: npm install
 
       - name: Run frontend tests
-        # This tells vitest to run once and exit, rather than watching for changes
         run: npx vitest run
