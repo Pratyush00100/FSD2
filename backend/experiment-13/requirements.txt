@@ -12,3 +12,5 @@ python-dotenv
 SQLAlchemy
 typing_extensions
 Werkzeug
+pytest
+cryptography
