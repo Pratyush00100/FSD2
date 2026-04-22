@@ -17,7 +17,7 @@ jobs:
       uses: docker/setup-buildx-action@v3
 
     - name: Build Docker Image
-      run: docker build -t my-backend-app .
+      run: docker build -t my-backend-app ./backend/experiment-13
 
     - name: Run Container
       run: docker run -d -p 5000:5000 my-backend-app
