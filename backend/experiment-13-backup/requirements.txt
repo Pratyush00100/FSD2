@@ -1,0 +1,16 @@
+blinker
+click
+Flask
+Flask-SQLAlchemy
+greenlet
+itsdangerous
+Jinja2
+MarkupSafe
+marshmallow
+PyMySQL
+python-dotenv
+SQLAlchemy
+typing_extensions
+Werkzeug
+pytest
+cryptography
